@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" fill="none" role="img" aria-label="AI Data Platform Architecture">
+  <defs>
+    <linearGradient id="a-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39E6C8"></stop><stop offset="1" stop-color="#5B8CFF"></stop>
+    </linearGradient>
+    <filter id="a-glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"></feGaussianBlur><feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    
+  <style>text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans',-apple-system,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC','Source Han Sans TC',sans-serif}.mono{font-family:'SF Mono','JetBrains Mono','Cascadia Code',ui-monospace,'Roboto Mono','DejaVu Sans Mono',monospace}.tag{fill:#39E6C8}.layer{transform-origin:center;animation:a-rise .7s cubic-bezier(.2,.7,.2,1) both}#L1{animation-delay:.15s}#L2{animation-delay:.35s}#L3{animation-delay:.55s}#L4{animation-delay:.75s}#L5{animation-delay:.95s}.edge{fill:none;stroke:url(#a-accent);opacity:0;animation:a-edge 2.6s ease-in-out infinite}#e1{animation-delay:.2s}#e2{animation-delay:.6s}#e3{animation-delay:1s}#e4{animation-delay:1.4s}#e5{animation-delay:1.8s}.scan{animation:a-scan 6s ease-in-out infinite}@keyframes a-rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}@keyframes a-edge{0%,70%,100%{opacity:0}18%,42%{opacity:.85}}@keyframes a-scan{0%{transform:translateX(0);opacity:0}8%{opacity:.5}48%{transform:translateX(1000px);opacity:.5}58%,100%{transform:translateX(1000px);opacity:0}}</style></defs>
+  <rect width="1200" height="640" fill="#1B1D28"></rect>
+  <text class="f" x="60" y="56" font-size="30" font-weight="800" fill="#EAECF4">AI Data Platform 架構</text>
+  <text class="mono" x="60" y="82" font-size="13" letter-spacing="3" fill="#39E6C8">FOUR LAYERS · BOTTOM-UP ASSEMBLY</text>
+
+  
+  <g id="L5" class="layer"><rect x="60" y="108" width="1080" height="64" rx="10" fill="#202738" stroke="#2E3A57"></rect></g>
+  <rect id="e5" class="edge" x="60" y="108" width="1080" height="64" rx="10" stroke-width="1.6"></rect>
+  <text id="t5" class="mono tag" x="84" y="146" font-size="14" letter-spacing="2">APPS</text>
+  <text class="f" x="600" y="146" font-size="17" font-weight="600" fill="#EAECF4" text-anchor="middle">應用與服務 · Native Apps · SaaS · AI Gateway</text>
+
+  
+  <g id="L4" class="layer"><rect x="60" y="186" width="1080" height="86" rx="10" fill="#232634" stroke="#313650"></rect></g>
+  <rect id="e4" class="edge" x="60" y="186" width="1080" height="86" rx="10" stroke-width="1.6"></rect>
+  <text id="t4" class="mono tag" x="84" y="222" font-size="20" font-weight="700">L4</text>
+  <text class="f" x="84" y="248" font-size="18" font-weight="700" fill="#EAECF4">可複用 AI 模組層</text>
+  <text class="f" x="1116" y="222" font-size="14" fill="#9AA1BC" text-anchor="end">視覺 · 語音 · 推理 · 資料橋接</text>
+  <text class="f" x="1116" y="246" font-size="14" fill="#9AA1BC" text-anchor="end">MLOps / LLMOps</text>
+
+  
+  <g id="L3" class="layer"><rect x="60" y="286" width="1080" height="86" rx="10" fill="#232634" stroke="#313650"></rect></g>
+  <rect id="e3" class="edge" x="60" y="286" width="1080" height="86" rx="10" stroke-width="1.6"></rect>
+  <text id="t3" class="mono tag" x="84" y="322" font-size="20" font-weight="700">L3</text>
+  <text class="f" x="84" y="348" font-size="18" font-weight="700" fill="#EAECF4">可複用開源元件層</text>
+  <text class="f" x="1116" y="322" font-size="14" fill="#9AA1BC" text-anchor="end">aiDAPTIV 框架 · 訊息佇列 · 資料庫</text>
+  <text class="f" x="1116" y="346" font-size="14" fill="#9AA1BC" text-anchor="end">網路 · 監控 · AI 模型</text>
+
+  
+  <g id="L2" class="layer"><rect x="60" y="386" width="1080" height="86" rx="10" fill="#232634" stroke="#313650"></rect></g>
+  <rect id="e2" class="edge" x="60" y="386" width="1080" height="86" rx="10" stroke-width="1.6"></rect>
+  <text id="t2" class="mono tag" x="84" y="422" font-size="20" font-weight="700">L2</text>
+  <text class="f" x="84" y="448" font-size="18" font-weight="700" fill="#EAECF4">超融合基礎架構軟體層 · Phison HCI</text>
+  <text class="f" x="1116" y="422" font-size="14" fill="#9AA1BC" text-anchor="end">容器管理 · GPU 虛擬化 · 資源排程</text>
+  <text class="f" x="1116" y="446" font-size="14" fill="#9AA1BC" text-anchor="end">儲存 · 成本 · 監控 · 權限</text>
+
+  
+  <g id="L1" class="layer"><rect x="60" y="486" width="1080" height="100" rx="10" fill="#242A3A" stroke="#33405C"></rect></g>
+  <rect id="e1" class="edge" x="60" y="486" width="1080" height="100" rx="10" stroke-width="1.8"></rect>
+  <text id="t1" class="mono tag" x="84" y="524" font-size="20" font-weight="700">L1</text>
+  <text class="f" x="84" y="550" font-size="18" font-weight="700" fill="#EAECF4">基礎設施層</text>
+  <text class="f" x="84" y="572" font-size="13" fill="#9AA1BC">高速互連整合 GPU · CPU · Cache · Storage</text>
+  <g class="f" font-size="14" fill="#CDD3E6">
+    <rect x="620" y="510" width="120" height="56" rx="8" fill="#1B2030" stroke="#39E6C8" stroke-opacity="0.5"></rect><text x="680" y="543" text-anchor="middle">GPU</text>
+    <rect x="752" y="510" width="120" height="56" rx="8" fill="#1B2030" stroke="#5B8CFF" stroke-opacity="0.5"></rect><text x="812" y="543" text-anchor="middle">CPU</text>
+    <rect x="884" y="510" width="120" height="56" rx="8" fill="#1B2030" stroke="#39E6C8" stroke-opacity="0.5"></rect><text x="944" y="543" text-anchor="middle">CACHE</text>
+    <rect x="1016" y="510" width="100" height="56" rx="8" fill="#1B2030" stroke="#5B8CFF" stroke-opacity="0.5"></rect><text x="1066" y="543" text-anchor="middle">STORE</text>
+  </g>
+
+  
+  <g clip-path="none"><rect class="scan" x="0" y="108" width="200" height="478" fill="url(#a-accent)" opacity="0.08"></rect></g>
+</svg>
