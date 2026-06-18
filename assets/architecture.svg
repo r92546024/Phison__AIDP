@@ -7,7 +7,7 @@
       <feGaussianBlur stdDeviation="7" result="b"></feGaussianBlur><feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
     </filter>
     
-  </defs>
+  <style>text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans',-apple-system,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC','Source Han Sans TC',sans-serif}.mono{font-family:'SF Mono','JetBrains Mono','Cascadia Code',ui-monospace,'Roboto Mono','DejaVu Sans Mono',monospace}.tag{fill:#39E6C8}.layer{transform-origin:center;animation:a-rise .7s cubic-bezier(.2,.7,.2,1) both}#L1{animation-delay:.15s}#L2{animation-delay:.35s}#L3{animation-delay:.55s}#L4{animation-delay:.75s}#L5{animation-delay:.95s}.edge{fill:none;stroke:url(#a-accent);opacity:0;animation:a-edge 2.6s ease-in-out infinite}#e1{animation-delay:.2s}#e2{animation-delay:.6s}#e3{animation-delay:1s}#e4{animation-delay:1.4s}#e5{animation-delay:1.8s}.scan{animation:a-scan 6s ease-in-out infinite}@keyframes a-rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}@keyframes a-edge{0%,70%,100%{opacity:0}18%,42%{opacity:.85}}@keyframes a-scan{0%{transform:translateX(0);opacity:0}8%{opacity:.5}48%{transform:translateX(1000px);opacity:.5}58%,100%{transform:translateX(1000px);opacity:0}}</style></defs>
   <rect width="1200" height="640" fill="#1B1D28"></rect>
   <text class="f" x="60" y="56" font-size="30" font-weight="800" fill="#EAECF4">AI Data Platform 架構</text>
   <text class="mono" x="60" y="82" font-size="13" letter-spacing="3" fill="#39E6C8">FOUR LAYERS · BOTTOM-UP ASSEMBLY</text>

@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="m-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#39E6C8"></stop><stop offset="1" stop-color="#5B8CFF"></stop></linearGradient>
     
-  </defs>
+  <style>text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans',-apple-system,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC','Source Han Sans TC',sans-serif}.mono{font-family:'SF Mono','JetBrains Mono','Cascadia Code',ui-monospace,'Roboto Mono','DejaVu Sans Mono',monospace}.pop{transform-box:fill-box;transform-origin:center;animation:m-pop .8s cubic-bezier(.2,1.5,.4,1) .5s both}#pop4{animation-delay:.7s}#barfill{animation:m-bar 1.4s cubic-bezier(.2,.8,.2,1) .6s both}@keyframes count-c1{0%,20%{transform:translateY(0)}40%,55%{transform:translateY(-92px)}75%,100%{transform:translateY(-184px)}}@keyframes count-c2{0%,10%{transform:translateY(0)}26%{transform:translateY(-92px)}42%{transform:translateY(-184px)}58%{transform:translateY(-276px)}74%{transform:translateY(-368px)}90%,100%{transform:translateY(-460px)}}@keyframes m-pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}@keyframes m-bar{from{width:0}to{width:134px}}</style></defs>
   <rect width="1200" height="360" fill="#1B1D28"></rect>
   <text class="f" x="30" y="48" font-size="26" font-weight="800" fill="#EAECF4">可量化的成果 · Performance That Pays Off</text>
 

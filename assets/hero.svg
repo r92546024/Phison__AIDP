@@ -14,7 +14,7 @@
     </pattern>
     <clipPath id="h-type"><rect id="typerect" x="60" y="108" width="790" height="92"></rect></clipPath>
     
-  </defs>
+  <style>text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans',-apple-system,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC','Source Han Sans TC',sans-serif}.mono{font-family:'SF Mono','JetBrains Mono','Cascadia Code',ui-monospace,'Roboto Mono','DejaVu Sans Mono',monospace}.ttl{font-weight:800;letter-spacing:-1px}#typerect{animation:h-type 2.1s steps(26,end) .35s both}#caret{animation:h-caret 2.1s steps(26,end) .35s both}#caretbar{animation:h-blink .8s steps(1,end) infinite}#subline{opacity:0;animation:h-up .7s cubic-bezier(.2,.7,.2,1) 2.35s both}#tagline{opacity:0;animation:h-up .7s cubic-bezier(.2,.7,.2,1) 2.6s both}.flow{stroke-dasharray:14 10;animation:h-dash 16s linear infinite}#glow{animation:h-glow 6s ease-in-out infinite}.p1{animation:h-f1 5s ease-in-out infinite}.p2{animation:h-f2 7s ease-in-out infinite}@keyframes h-type{from{width:0}to{width:790px}}@keyframes h-caret{from{transform:translateX(0)}to{transform:translateX(786px)}}@keyframes h-blink{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes h-up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@keyframes h-dash{to{stroke-dashoffset:-480}}@keyframes h-glow{0%,100%{opacity:.55}50%{opacity:1}}@keyframes h-f1{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes h-f2{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}</style></defs>
 
   <rect width="1200" height="360" fill="#1B1D28"></rect>
   <rect width="1200" height="360" fill="url(#h-grid)" opacity="0.5"></rect>
