@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" fill="none" role="img" aria-label="Performance metrics">
+  <defs>
+    <linearGradient id="m-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#39E6C8"></stop><stop offset="1" stop-color="#5B8CFF"></stop></linearGradient>
+    
+  </defs>
+  <rect width="1200" height="360" fill="#1B1D28"></rect>
+  <text class="f" x="30" y="48" font-size="26" font-weight="800" fill="#EAECF4">可量化的成果 · Performance That Pays Off</text>
+
+  <rect x="30" y="80" width="268" height="244" rx="14" fill="#232634" stroke="#313650"></rect>
+  <text class="mono" x="54" y="118" font-size="12" letter-spacing="2" fill="#39E6C8">CONCURRENCY</text>
+  <clipPath id="clip-c1"><rect x="112" y="150" width="104" height="92"></rect></clipPath>
+  <g clip-path="url(#clip-c1)"><g style="animation:count-c1 4.5s cubic-bezier(.2,.8,.2,1) 0s infinite both;"><text x="164" y="216" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">0</text><text x="164" y="308" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">1</text><text x="164" y="400" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">2</text></g></g>
+  
+  <text class="f" x="120" y="222" font-size="64" font-weight="800" text-anchor="end" fill="url(#m-accent)">&gt;</text>
+  <text class="f" x="208" y="222" font-size="64" font-weight="800" text-anchor="start" fill="url(#m-accent)">×</text>
+  <text class="f" x="164" y="276" font-size="17" font-weight="700" fill="#EAECF4" text-anchor="middle">並發使用者容量</text>
+  <text class="f" x="164" y="300" font-size="12.5" fill="#8A90A6" text-anchor="middle">同叢集，並發 2 倍以上</text>
+
+  <rect x="320" y="80" width="268" height="244" rx="14" fill="#232634" stroke="#313650"></rect>
+  <text class="mono" x="344" y="118" font-size="12" letter-spacing="2" fill="#39E6C8">TTFT</text>
+  <clipPath id="clip-c2"><rect x="402" y="150" width="104" height="92"></rect></clipPath>
+  <g clip-path="url(#clip-c2)"><g style="animation:count-c2 4.5s cubic-bezier(.2,.8,.2,1) 0.15s infinite both;"><text x="454" y="216" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">0</text><text x="454" y="308" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">1</text><text x="454" y="400" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">2</text><text x="454" y="492" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">3</text><text x="454" y="584" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">4</text><text x="454" y="676" font-size="84" font-weight="800" fill="#FFFFFF" text-anchor="middle" class="f">5</text></g></g>
+  
+  <text class="f" x="410" y="222" font-size="64" font-weight="800" text-anchor="end" fill="url(#m-accent)">&gt;</text>
+  <text class="f" x="498" y="222" font-size="64" font-weight="800" text-anchor="start" fill="url(#m-accent)">×</text>
+  <text class="f" x="454" y="276" font-size="17" font-weight="700" fill="#EAECF4" text-anchor="middle">更短首字延遲</text>
+  <text class="f" x="454" y="300" font-size="12.5" fill="#8A90A6" text-anchor="middle">命中即返，快 5 倍以上</text>
+
+  <rect x="610" y="80" width="268" height="244" rx="14" fill="#232634" stroke="#313650"></rect>
+  <text class="mono" x="634" y="118" font-size="12" letter-spacing="2" fill="#39E6C8">COST</text>
+  <text class="f pop" x="744" y="208" font-size="72" font-weight="800" text-anchor="middle" fill="url(#m-accent)">−61%</text>
+  <rect x="634" y="232" width="220" height="10" rx="5" fill="#1B2030"></rect>
+  <rect id="barfill" x="634" y="232" width="0" height="10" rx="5" fill="url(#m-accent)"></rect>
+  <text class="f" x="744" y="276" font-size="17" font-weight="700" fill="#EAECF4" text-anchor="middle">部署成本下降</text>
+  <text class="f" x="744" y="300" font-size="12.5" fill="#8A90A6" text-anchor="middle">aiDAPTIV 混合架構</text>
+
+  <rect x="900" y="80" width="268" height="244" rx="14" fill="#232634" stroke="#313650"></rect>
+  <text class="mono" x="924" y="118" font-size="12" letter-spacing="2" fill="#39E6C8">HARDWARE</text>
+  <text id="pop4" class="f pop" x="1034" y="212" font-size="78" font-weight="800" text-anchor="middle" fill="url(#m-accent)">1/10</text>
+  <text class="f" x="1034" y="276" font-size="17" font-weight="700" fill="#EAECF4" text-anchor="middle">硬體成本</text>
+  <text class="f" x="1034" y="300" font-size="12.5" fill="#8A90A6" text-anchor="middle">企業級 LLM 微調與推理</text>
+</svg>
